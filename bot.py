@@ -18,8 +18,8 @@ logger = logging.getLogger(__name__)
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 DATABASE_URL = os.getenv("DATABASE_URL")
-CHANNEL = "@romakottochannel"
-ADMINS = [1940359844]
+CHANNEL = "@"
+ADMINS = []
 
 db = Database(DATABASE_URL)
 
